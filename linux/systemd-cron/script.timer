@@ -1,0 +1,9 @@
+[Unit]
+Description=Start the matching Systemd SERVICE_NAME.service on schedule
+
+[Timer]
+OnCalendar="Mon,Wed,Fri 1:0"
+Persistent=true
+
+[Install]
+WantedBy=timers.target
