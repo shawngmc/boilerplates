@@ -1,0 +1,6 @@
+[Unit]
+Description=Execute a bash script for SERVICE_NAME
+
+[Service]
+Type=oneshot
+ExecStart=
